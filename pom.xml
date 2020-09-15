@@ -43,27 +43,27 @@
 	<name>JPetStore Demo 6</name>
 	<url>http://www.mybatis.org</url>
 
-	<scm>
-		<url>http://github.com/mybatis/jpetstore-6</url>
-		<connection>scm:git:ssh://github.com/mybatis/jpetstore-6.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/mybatis/jpetstore-6.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
-	<issueManagement>
-		<system>GitHub Issue Management</system>
-		<url>https://github.com/mybatis/jpetstore/issues</url>
-	</issueManagement>
-	<ciManagement>
-		<system>Travis CI</system>
-		<url>https://travis-ci.org/mybatis/jpetstore-6</url>
-	</ciManagement>
-	<distributionManagement>
-		<site>
-			<id>gh-pages</id>
-			<name>Mybatis GitHub Pages</name>
-			<url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
-		</site>
-	</distributionManagement>
+<!-- 	<scm> -->
+<!-- 		<url>http://github.com/mybatis/jpetstore-6</url> -->
+<!-- 		<connection>scm:git:ssh://github.com/mybatis/jpetstore-6.git</connection> -->
+<!-- 		<developerConnection>scm:git:ssh://git@github.com/mybatis/jpetstore-6.git</developerConnection> -->
+<!-- 		<tag>HEAD</tag> -->
+<!-- 	</scm> -->
+<!-- 	<issueManagement> -->
+<!-- 		<system>GitHub Issue Management</system> -->
+<!-- 		<url>https://github.com/mybatis/jpetstore/issues</url> -->
+<!-- 	</issueManagement> -->
+<!-- 	<ciManagement> -->
+<!-- 		<system>Travis CI</system> -->
+<!-- 		<url>https://travis-ci.org/mybatis/jpetstore-6</url> -->
+<!-- 	</ciManagement> -->
+<!-- 	<distributionManagement> -->
+<!-- 		<site> -->
+<!-- 			<id>gh-pages</id> -->
+<!-- 			<name>Mybatis GitHub Pages</name> -->
+<!-- 			<url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url> -->
+<!-- 		</site> -->
+<!-- 	</distributionManagement> -->
 
 	<dependencies>
 		<dependency>
@@ -303,6 +303,7 @@
 		<sonar.password>test</sonar.password>
 		<sonar.sources>src/main/java</sonar.sources>
 		<sonar.host.url>localhost:9002</sonar.host.url>
+		<sonar.java.binaries>jpetstore.war</sonar.java.binaries>
 		
 		<cargo.maven.containerId>tomcat${tomcat.major-version}x</cargo.maven.containerId>
 		<cargo.maven.containerUrl>https://archive.apache.org/dist/tomcat/tomcat-${tomcat.major-version}/v${tomcat.version}/bin/apache-tomcat-${tomcat.version}.zip</cargo.maven.containerUrl>
