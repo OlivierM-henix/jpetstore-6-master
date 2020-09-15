@@ -298,12 +298,11 @@
 
 	<properties>
 	
-		<sonar.projectName>JpetstOr-agent</sonar.projectName>
+		<sonar.projectName>JpetstOr-via-Jenkins</sonar.projectName>
 		<sonar.login>test</sonar.login>
 		<sonar.password>test</sonar.password>
 		<sonar.sources>src/main/java</sonar.sources>
-		<sonar.host.url>localhost:9002</sonar.host.url>
-		<sonar.java.binaries>jpetstore.war</sonar.java.binaries>
+		<sonar.host.url>http://localhost:9002</sonar.host.url>
 		
 		<cargo.maven.containerId>tomcat${tomcat.major-version}x</cargo.maven.containerId>
 		<cargo.maven.containerUrl>https://archive.apache.org/dist/tomcat/tomcat-${tomcat.major-version}/v${tomcat.version}/bin/apache-tomcat-${tomcat.version}.zip</cargo.maven.containerUrl>
